@@ -1,9 +1,10 @@
 
 # Object Oriented Programming (OOP)
 
-## Object-oriented programming is based on the concept of objects. In object-oriented programming data structures, or objects are defined, each with its own properties or attributes.
+## What is OOP?
+### Object-oriented programming is based on the concept of objects. In object-oriented programming data structures, or objects are defined, each with its own properties or attributes.
 
-### OOP has benefits such as:
+### The benefits of OOP are:
 
 * Being faster and easier to execute
 * Providing a clear structure for a program
