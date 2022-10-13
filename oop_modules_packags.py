@@ -70,9 +70,67 @@ def convert(cm):
 
 convert(231)
 
+def movie_rating(age):
+    if age >= 117:
+        print("Please re-enter your age")
+    elif age >= 18:
+        print("You can buy any ticket")
+    elif  16 <= age < 18:
+        print("you can buy a general ticket")
+    elif   12 <= age < 16:
+        print("you can't watch restricted content")
+    else:
+        print("you can only watch PG movies")
+    return f"Your age is {age}"
+
+age = int(input("Enter your age: "))
+print(movie_rating(age))
+
+def your_age(age):
+
+    current_year = int(2022)
+    birth_year = current_year - age
+    return (f"You were born in {birth_year}")
+
+age = int(input("Enter your age: "))
+print(your_age(age))
 
 
 
+def num(range):
+    for num in range(1,101):
+     #check that the number is divisible by both 3 and 5
+        if(num%3==0 and num%5==0):
+            print ("FizzBuzz")
+        #check that the number is divisible by 3
+        elif(num%3 == 0):
+            print ("Fizz")
+        #check that the number is divisible by 5
+        elif(num%5 == 0):
+            print ("Buzz")
+        #if it's not divisible by either 3 or 5 print the number
+        else:
+            print(num)
 
+num(range)
 
+def waiter(order):
+    menu = ("coke", "fanta", "burger", "pasta", "rice", "chicken", "cake")
+    print(menu) # Here's the menu
+    current_order = [] # first create an empty list
+
+    # customer greeting
+    # print("Hello, thank you for entering our restaurant, what would you like to order?")
+    while len(current_order)<3:  # you can only order three items
+        order = input("What would you like to order?: ")   # input the order
+        if order in menu:
+
+            current_order.append(order) # adds to the order list
+            print("anything else?")
+            print(f"So you have ordered {current_order}")
+        else:
+            print("item not in the menu") # if item not in menu print this
+
+order = input("Would you like to look at our menu?: ")
+waiter(order)
 
