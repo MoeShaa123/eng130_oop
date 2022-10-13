@@ -19,9 +19,6 @@
 * Objects are instances of a class created with specifically defined data
 * Methods are functions that are defined inside a class that describe the behaviors of an object
 * Attributes are defined in the class template and represent the state of an object
-
-### The four pillars of OOP are:
-
 ![image](https://user-images.githubusercontent.com/106158041/195631656-058d859e-5fdd-42b7-87a4-b6808c4b3777.png)
 
 * Abstraction - this is used to reduce the amount of code, which is always useful as it saves time
